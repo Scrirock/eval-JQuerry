@@ -24,3 +24,28 @@ div{
 #divScore{
     position: fixed;
 }
+
+@media screen and (max-width: 600px){
+    #container{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    #question{
+        width: 100%;
+    }
+
+    #question, #divScore{
+        padding: 0.5rem;
+        margin: 0;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    #divScore{
+        position: relative;
+    }
+}
