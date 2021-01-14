@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-size: 2rem;
+}
+
+div{
+    display: inline-block;
+}
+
+#question, #divScore{
+    border: 2px solid black;
+    padding: 2rem;
+    margin: 5rem;
+}
+
+#divScore{
+    position: fixed;
+}
